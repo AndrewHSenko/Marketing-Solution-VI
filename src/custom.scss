@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+
+$primary: #7ba9c9;
+$secondary: #9bdcf4;
+$success: #63cec1;// #4ba98a;
+$danger: #e42526;
+$warning: #f6c95a;
+$info: #1c437a;
+$tblack: #2f242b;
+
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "info": $info,
+  "tblack": $tblack
+));
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
