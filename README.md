@@ -1,0 +1,1 @@
+For Marketing Solution VI. Uses MERN stack with Bootstrap. Will also include Tailwind CSS
