@@ -1,0 +1,30 @@
+{
+  "name": "marketing-solution-vi",
+  "version": "1.0.0",
+  "description": "For Marketing Solution VI. Uses MERN stack with Bootstrap. Will also include Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewHSenko/Marketing-Solution-VI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AndrewHSenko/Marketing-Solution-VI/issues"
+  },
+  "homepage": "https://github.com/AndrewHSenko/Marketing-Solution-VI#readme",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
